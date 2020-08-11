@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+@import 'variaveis.scss';
+@import 'header.scss';
+@import 'components.scss';
+@import 'superbanner.scss';
+@import 'produtos.scss';
+@import 'portfolio.scss';
+@import 'qualidade.scss';
+@import 'footer.scss';
+@import 'sobre.scss';
+@import 'contato.scss';
+@import 'modal.scss';
